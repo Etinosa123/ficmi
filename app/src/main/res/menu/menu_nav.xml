@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"/>
+
+    <item android:id="@+id/home_layout"
+        android:icon="@drawable/home"
+        android:title="Home"
+        android:checked="true"/>
+
+    <item android:id="@+id/bookmarks"
+        android:icon="@drawable/bookmarks"
+        android:title="Bookmarks" />
+
+
+
+    <item android:title="@string/support">
+    <menu>
+        <item android:id="@+id/contact_us"
+            android:icon="@drawable/contact"
+            android:title="Reach Out To us" />
+
+        <item android:id="@+id/about_us"
+            android:icon="@drawable/about_us"
+            android:title="About FICMI" />
+
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@android:drawable/ic_menu_share"
+            android:title="@string/rate"/>
+        <item
+            android:id="@+id/nav_credits"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="@string/credits"/>
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:title="Logout"/>
+    </menu>
+    </item>
+</menu>

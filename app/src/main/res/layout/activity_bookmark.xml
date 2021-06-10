@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.BookmarkActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+       <androidx.appcompat.widget.Toolbar
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/toolbar_bookmark"
+           android:theme="?attr/actionBarTheme"
+           android:background="@color/bottombar"
+           app:titleTextColor="@color/white"
+           app:title="Bookmarks"/>
+       <androidx.recyclerview.widget.RecyclerView
+           android:layout_width="match_parent"
+           android:layout_margin="5dp"
+           android:layout_height="wrap_content"
+           android:id="@+id/bookmark_rec"/>
+   </LinearLayout>
+</androidx.core.widget.NestedScrollView>

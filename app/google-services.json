@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "489683699204",
+    "project_id": "my-ficmi-app",
+    "storage_bucket": "my-ficmi-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:489683699204:android:4f4d61eea6ff23eb2b5751",
+        "android_client_info": {
+          "package_name": "com.hfad.myficmiapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "489683699204-e0k8h1v46vf2lgluu0b8vvltmrk9g9vp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6nbGKfyEni4A-hLuJ9Ev2qnmZT_W4C-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "489683699204-e0k8h1v46vf2lgluu0b8vvltmrk9g9vp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

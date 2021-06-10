@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hfad.myficmiapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/ficmii"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyFICMIApp">
+        <activity android:name=".activities.CreditsActivity"/>
+        <activity android:name=".activities.RateAppActivity" />
+        <activity android:name=".activities.ContactUsActivity" />
+        <activity android:name=".activities.BookmarkActivity" />
+        <activity android:name=".activities.AboutActivity" />
+        <activity android:name=".activities.BranchActivity" />
+        <activity android:name=".activities.MessagesActivity" />
+        <activity android:name=".activities.DevotionActivity" />
+        <activity android:name=".activities.NoteEditorActivity" />
+        <activity android:name=".activities.AdminMainActivity" />
+        <activity android:name=".activities.RegistrationActivity" />
+        <activity android:name=".activities.LoginActivity" />
+        <activity android:name=".activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
